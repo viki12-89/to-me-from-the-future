@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    background: linear-gradient(to bottom, #fef9f4, #f6eee3, #ecdfd2);
+    color: #2e2e2e;
+    line-height: 1.7;
+}
+
+.chapter {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.05);
+    margin-bottom: 60px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1.2s ease-out;
+}
+
+.chapter.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    color: #8B4513;
+}
+
+p {
+    font-size: 20px;
+}
+
+audio {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
